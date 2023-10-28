@@ -389,7 +389,7 @@ body {
 
 @media (max-width: 600px) {
   .nav-bar {
-    width: 42em;
+    width: 100%;
     padding: 0.1em;
   }
   .logo span {
@@ -407,5 +407,8 @@ body {
   }
   .btn-500px {
     display: block;
+  }
+  .box {
+    width: 100%;
   }
 }
