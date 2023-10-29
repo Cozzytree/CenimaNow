@@ -20,7 +20,7 @@
 }
 
 html {
-  font-size: 75%;
+  font-size: 60%;
   letter-spacing: 0.05em;
 }
 
@@ -388,6 +388,17 @@ body {
 }
 
 @media (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+  .main {
+  }
+  .list {
+    padding: 0;
+  }
+  .list li {
+    padding: 1em;
+  }
   .nav-bar {
     width: 100%;
     padding: 0.1em;
@@ -407,6 +418,8 @@ body {
   }
   .btn-500px {
     display: block;
+    width: 8em;
+    height: 3.5;
   }
   .box {
     width: 100%;
